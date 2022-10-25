@@ -1,0 +1,285 @@
+
+
+/* ========================================================================== */
+/* ======================  animation task  lec 15  css3  lec 2  ====================== */
+
+*{
+   margin: 0px; 
+   padding: 0px;
+
+}
+
+/* ========================================================================== */
+/* ========================================================================== */
+
+.main_section{
+    width: 100%;
+    position: relative;
+    /* overflow:auto; */
+}
+
+/* ========================================================================== */
+/* ========================================================================== */
+
+.div_1,.div_2,.div_3,.div_4,.div_5,.div_6,.div_7,.div_8{
+    margin-top: 20px;
+    /* width: 40px; */
+    height: 40px;
+    border: 1px;
+    border-color: brown;
+    border-style: solid;
+    position:relative;
+    visibility: hidden;
+    /* border-radius: 50%; */
+    animation-duration: 3s;
+
+}
+
+/* .div_1,.div_3,.div_5,.div_7{
+    background-color:rgba(38, 120, 241, 0.8);
+}
+
+.div_2,.div_4,.div_6,.div_8{
+    background-color:rgba(233, 147, 34, 0.8);
+} */
+
+/* ========================================================================== */
+/* ========================================================================== */
+.div_1{
+
+    animation-name:mov_1;
+}
+@keyframes mov_1{
+    0%{
+        visibility: visible;
+        background-color:rgba(38, 109, 241, 0.8);
+        left: 0%;
+        width: 0%;
+    }
+    50%{
+        /* left: 100%; */
+        /* width: 100%; */
+
+    }
+    100%{
+        right: 0%;
+        width: 100%;
+        background-color:rgba(233, 147, 34, 0.8);
+        visibility: visible;
+        border-radius: 25px;
+
+
+    }    
+}
+/* ========================================================================== */
+/* ========================================================================== */
+.div_2{
+
+    animation-name:mov_2;
+    animation-delay: 3s;
+}
+@keyframes mov_2{
+    0%{
+        visibility: visible;
+
+        left: 100%;
+        width: 0%;
+        background-color:rgba(233, 147, 34, 0.8);
+
+    }
+    50%{
+        /* left: 0%;
+        width: 100%; */
+
+    }
+    100%{
+        left:0%;
+        width: 100%;
+        background-color:rgba(38, 120, 241, 0.8);
+        visibility: visible;
+        border-radius: 25px;
+
+    }    
+}
+/* ========================================================================== */
+/* ========================================================================== */
+.div_3{
+
+    animation-name:mov_3;
+    animation-delay: 6s;
+
+}
+@keyframes mov_3{
+    0%{
+        visibility: visible;
+        background-color:rgba(38, 120, 241, 0.8);
+        left: 0%;
+        width: 0%;
+    }
+    50%{
+        /* left: 100%; */
+        /* width: 100%; */
+
+    }
+    100%{
+        right: 0%;
+        width: 100%;
+        background-color:rgba(233, 147, 34, 0.8);
+        visibility: visible;
+        border-radius: 25px;
+
+    }    
+}
+/* ========================================================================== */
+/* ========================================================================== */
+.div_4{
+
+    animation-name:mov_4;
+    animation-delay: 9s;
+
+}
+@keyframes mov_4{
+    0%{
+        visibility: visible;
+
+        left: 100%;
+        width: 0%;
+        background-color:rgba(233, 147, 34, 0.8);
+
+    }
+    50%{
+        /* left: 0%;
+        width: 100%; */
+
+    }
+    100%{
+        left:0%;
+        width: 100%;
+        background-color:rgba(38, 120, 241, 0.8);
+        visibility: visible;
+        border-radius: 25px;
+
+    }    
+}
+/* ========================================================================== */
+/* ========================================================================== */
+.div_5{
+
+    animation-name:mov_5;
+    animation-delay: 12s;
+
+}
+@keyframes mov_5{
+    0%{
+        visibility: visible;
+        background-color:rgba(38, 120, 241, 0.8);
+        left: 0%;
+        width: 0%;
+    }
+    50%{
+        /* left: 100%; */
+        /* width: 100%; */
+
+    }
+    100%{
+        right: 0%;
+        width: 100%;
+        background-color:rgba(233, 147, 34, 0.8);
+        visibility: visible;
+        border-radius: 25px;
+
+    }    
+}
+/* ========================================================================== */
+/* ========================================================================== */
+.div_6{
+
+    animation-name:mov_6;
+    animation-delay: 15s;
+
+}
+@keyframes mov_6{
+    0%{
+        visibility: visible;
+
+        left: 100%;
+        width: 0%;
+        background-color:rgba(233, 147, 34, 0.8);
+
+    }
+    50%{
+        /* left: 0%;
+        width: 100%; */
+
+    }
+    100%{
+        left:0%;
+        width: 100%;
+        background-color:rgba(38, 120, 241, 0.8);
+        visibility: visible;
+        border-radius: 25px;
+
+    }    
+}
+/* ========================================================================== */
+/* ========================================================================== */
+.div_7{
+
+    animation-name:mov_7;
+    animation-delay: 18s;
+
+}
+@keyframes mov_7{
+    0%{
+        visibility: visible;
+        background-color:rgba(38, 120, 241, 0.8);
+        left: 0%;
+        width: 0%;
+    }
+    50%{
+        /* left: 100%; */
+        /* width: 100%; */
+
+    }
+    100%{
+        right: 0%;
+        width: 100%;
+        background-color:rgba(233, 147, 34, 0.8);
+        visibility: visible;
+        border-radius: 25px;
+
+    }    
+}
+/* ========================================================================== */
+/* ========================================================================== */
+.div_8{
+
+    animation-name:mov_8;
+    animation-delay: 21s;
+
+}
+@keyframes mov_8{
+    0%{
+        visibility: visible;
+
+        left: 100%;
+        width: 0%;
+        background-color:rgba(233, 147, 34, 0.8);
+
+    }
+    50%{
+        /* left: 0%;
+        width: 100%; */
+
+    }
+    100%{
+        left:0%;
+        width: 100%;
+        background-color:rgba(38, 120, 241, 0.8);
+        visibility: visible;
+        border-radius: 25px;
+
+    }    
+}
+/* ========================================================================== */
+/* ========================================================================== */
